@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class LessonOne extends StatefulWidget {
+  const LessonOne({Key? key}) : super(key: key);
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _LessonOneState createState() => _LessonOneState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _LessonOneState extends State<LessonOne> {
   Color rectColor = Colors.green;
   double rectRadius = 0;
   @override
